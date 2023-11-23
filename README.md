@@ -1,1 +1,1 @@
-# estacio_de_sa_ads_estrutura_de_dados__linguagem_c
+# Estruturas de Dados Heterogêneas - Linguagem de programação C
