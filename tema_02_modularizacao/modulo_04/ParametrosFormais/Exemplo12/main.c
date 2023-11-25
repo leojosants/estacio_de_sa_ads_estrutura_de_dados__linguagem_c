@@ -1,0 +1,34 @@
+/* 
+*	library section 
+*/
+#include <stdio.h>
+#include <stdlib.h>
+
+/* global variable */
+int number_3;
+
+/*
+*	functions section
+*/
+int sum(int x, int y) {
+	int result;
+	result = x + y;
+	return(result);
+}
+
+/* main method */
+int main(int argc, char *argv[]) {
+	
+	/* local variable */
+	int number_1;
+	int number_2;
+	
+	number_1 = 10;
+	number_2 = 20;
+	number_3 = sum(number_1, number_2);
+
+	printf("\n---------- Exibindo dados ----------\n");
+	printf("%d + %d = %d\n", number_1, number_2, number_3);
+	
+	return 0;
+}
