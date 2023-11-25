@@ -4,13 +4,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* global variable */
+int number_3;
+
 /* main method */
 int main(int argc, char *argv[]) {
 	
-	/* local variable */
 	int number_1;
 	int number_2;
-	int number_3;
 	
 	number_1 = 10;
 	number_2 = 20;

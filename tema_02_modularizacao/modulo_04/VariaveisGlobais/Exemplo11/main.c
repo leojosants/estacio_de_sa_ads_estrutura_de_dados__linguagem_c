@@ -4,20 +4,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* global variable */
+int number;
+number = 20;
+
 /* main method */
 int main(int argc, char *argv[]) {
 	
 	/* local variable */
-	int number_1;
-	int number_2;
-	int number_3;
+	int number;
 	
-	number_1 = 10;
-	number_2 = 20;
-	number_3 = number_1 + number_2;
-	
+	number = 10;
+
 	printf("\n---------- Exibindo dados ----------\n");
-	printf("%d + %d = %d\n", number_1, number_2, number_3);
+	printf("Valor armazenado na variavel 'num' ..: %d\n", number);
 	
 	return 0;
 }
